@@ -1,9 +1,7 @@
-This parser requires json-simple.jar
+***requires json-simple.jar***
 
-it can translate a string (the content of a html file) into 
-Json or HTMLObjects
 
-HTMLParser:
+***HTMLParser:***
 
 	List<String>	 ignoredObjects			 | all Strings which don't end with a </obj>
 
@@ -11,7 +9,7 @@ HTMLParser:
 	String 		 toJsonString(String html)	 | translate a html string to Json string	 	
 
 
-HTMLObject:
+***HTMLObject:***
 
 	List<HTMLObject> inner				 | all the HTMLObjects which are inside of this object
 	String   	 data				 | all the text of this object (content between <>)
